@@ -26,6 +26,24 @@ header .intro-text .intro-lead-in {
 
  .section-heading {
     margin-bottom: 30px;
+     margin-left: 25%;
+     font-size: 50px;
+}
+
+ .section-heading1 {
+    margin-bottom: 30px;
+    margin-left: 15%;
+    width: 60%;
+     color: white;
+    font-size: 50px;
+}
+
+ .section-heading2 {
+    margin-bottom: 30px;
+    margin-left: 30%;
+    width: 60%;
+     color: black;
+    font-size: 50px;
 }
 
  .section-heading-spacer {
@@ -87,6 +105,12 @@ header .intro-text .intro-lead-in {
     text-align: justify;
 }
 
+.lead2{
+  font-size: 22px;
+  color: black;
+    text-align: justify;
+}
+
 .test{
     height:100px;
     width:0px;
@@ -98,4 +122,78 @@ header .intro-text .intro-lead-in {
 .paragraph2{
 
     padding-left: 20px;
+}
+
+footer .footer-above {
+  padding-top: 50px;
+  /*background-color: #2C3E50;*/
+}
+
+footer .footer-col {
+  margin-bottom: 30px;
+}
+
+footer .footer-below {
+  padding: 25px 0;
+  /*background-color: #233140;*/
+}
+
+footer {
+  color: white;
+}
+
+.social-google {
+    background-color: white;
+    border-color: white;
+}
+.social-google:hover{
+  background-color: #be5238;
+  border-color: #347b95;
+}
+
+.social-twitter {
+    background-color: white;
+    border-color: white;
+}
+.social-twitter:hover {
+  background-color: #3997ba;
+  border-color: #347b95;
+}
+
+.social-facebook {
+  background-color: white;
+  border-color: white;
+}
+.social-facebook:hover {
+  background-color: #47618d;
+  border-color: #347b95;
+}
+
+.social-pinterest {
+    background-color: white;
+    border-color: white;
+}
+.social-pinterest:hover {
+  background-color: #466b99;
+  border-color: #347b95;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color: #1b6d85;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    color: #1b6d85;
+}
+
+.fa-pinterest:before {
+    content: "\f0e1";
+    color: #1b6d85;
+}
+
+.fa-google-plus:before {
+    content: "\f0d5";
+    color: #1b6d85;
 }
